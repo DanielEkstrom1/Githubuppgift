@@ -2,13 +2,19 @@
 using System.Collections;
 
 public class Uppgift1 : MonoBehaviour {
-    public int a = 10;
-    public int b = 20;
+    public int valA = 5;
+    public int valB = 10;
+    private int valC = 0;
+    private int valD = 0;
 
 	// Use this for initialization
 	void Start () {
-        Debug.Log(a);
-        Debug.Log(b);
+        valC = valA;
+        valD = valB;
+        valB = valC;
+        valA = valD;
+        Debug.Log(valA);
+        Debug.Log(valB);
 	}
 	
 	// Update is called once per frame
