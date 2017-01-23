@@ -12,9 +12,7 @@ public class Uppgift1 : MonoBehaviour {
         valC = valA;
         valD = valB;
         valB = valC;
-        valA = valD;
-        Debug.Log(valA);
-        Debug.Log(valB);
+        valA = valD;       
 	}
 	
 	// Update is called once per frame
