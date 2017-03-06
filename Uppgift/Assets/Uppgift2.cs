@@ -1,13 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Uppgift2 : MonoBehaviour {
+public class Uppgift2 : MonoBehaviour
+
+    // Values of valA and valB
+
+{
     public int valA = 10;
     public int valB = 10;
 
     // Use this for initialization
-    void Start()
+    void Start()      
+
     {
+        // Decides what the biggest value is
         if (valA > valB)
         {
             Debug.Log("valA is bigger");
@@ -23,6 +29,6 @@ public class Uppgift2 : MonoBehaviour {
             Debug.Log("Even");
         }
             
-        }
     }
+}
 

@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Uppgift4 : MonoBehaviour {
+public class Uppgift4 : MonoBehaviour
+{
+    // Diffrent values
     public float valA = 5;
     public float valC = 10;
     public float valB;
@@ -9,7 +11,7 @@ public class Uppgift4 : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-
+        // What decides if the valB is bigger or not or between
         if (valB < valA)
 
         {
